@@ -1,0 +1,7 @@
+<appwizard><introduction><name></name><author>roll外卖</author><icon></icon><homepage></homepage><description><![CDATA[生成一个1-100的随机数.谁的数字小就下去拿外面]]></description></introduction><platform><services><service></service><service name="xcstream"  params="数据存储">Storage</service><service>Mysql</service><service>kvdb</service></services><appconfig><tpl><![CDATA[
+name: <<appname>>
+version: <<version>>
+version: 1
+...
+
+]]></tpl></appconfig></platform><code><initScript>index.php</initScript></code></appwizard>
